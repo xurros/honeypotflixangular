@@ -1,0 +1,48 @@
+
+
+.main-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+mat-card {
+  margin-right: 650px;
+  margin-top: 60px;
+  margin-bottom: 270px;
+  color: white;
+  padding: 80px;
+  background-color:  #A7A29A;
+  outline: 5px solid white;
+  outline-offset: -10px;
+}
+mat-card-header {
+  justify-content: center;
+}
+.content-container {
+  text-align: center;
+}
+mat-card-content {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Montserrat;
+  margin-top: 40px;
+  justify-content: center;
+}
+mat-card-actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.mat-stroked-button {
+  border: 3px solid rgb(202, 167, 8);
+  color: rgb(202, 167, 8);
+  width: 15vw;
+  transition-duration: 0.2s;
+}
+.mat-stroked-button:hover {
+  background-color: rgb(202, 167, 8);
+  color: black;
+}
