@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "honeypotflixngclient": {
+    "honeypotflixng-client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/honeypotflixngclient",
+            "outputPath": "dist/honeypotflixng-client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "honeypotflixngclient:build:production"
+              "browserTarget": "honeypotflixng-client:build:production"
             },
             "development": {
-              "browserTarget": "honeypotflixngclient:build:development"
+              "browserTarget": "honeypotflixng-client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "honeypotflixngclient:build"
+            "browserTarget": "honeypotflixng-client:build"
           }
         },
         "test": {
@@ -103,9 +103,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
-  "defaultProject": "honeypotflixngclient"
+  "defaultProject": "honeypotflixng-client"
 }
