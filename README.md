@@ -26,6 +26,6 @@ can learn more about movies I’ve watched or am interested in.
 - As a user, I want to be able to create a profile so I can save data about my favorite movies.
 
 ## 🌱 Live Demo 
-Check it out [here](https://honeypotflixangular.netlify.app/welcome).
+Check it out [here](https://honeypotflixangular.netlify.app/).
 
 
